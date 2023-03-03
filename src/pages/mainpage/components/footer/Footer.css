@@ -1,0 +1,15 @@
+.Footer { 
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 250px;
+    background-color: black;
+    margin-top: 30px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}

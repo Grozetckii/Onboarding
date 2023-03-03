@@ -1,0 +1,38 @@
+* {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.AboutOnboarding {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 750px;
+}
+
+.AboutOnboardingLeftBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./cats_together.png);
+    background-position: center 50% center 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.AboutOnboardingRightBox {
+    display: grid;
+    grid-template-rows: 200px 400px;
+    align-items: center;
+}
+
+.AboutOnboardingRightBoxHeadingTopContent {
+    font-size: 65px;
+}
+
+.AboutOnboardingRightBoxHeadingMiddle {
+    display: grid;
+    align-items: center;
+    font-size: 50px;
+    height: 650px;
+}
+

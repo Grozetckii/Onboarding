@@ -1,0 +1,75 @@
+.SecondPage {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.SecondPageBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 600px 600px 400px;
+    border: none;
+}
+
+.SecondPageWrapperStagesCardCompleteBoxLeft {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.SecondPageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 300px;
+}
+
+.SecondPageWrapperButtonArea {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.SecondPageWrapperExitButton {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgba(230, 227, 244, 0.867);
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.SecondPageWrapperExitButton:hover {
+    transition: 500ms;
+    transform: translateY(-10px) translateX(-10px);
+    box-shadow: 10px 10px 10px rgba(176, 171, 199, 0.867);
+}
+
+
+.SecondPageWrapperToMainButton {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgba(230, 227, 244, 0.867);
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.SecondPageWrapperToMainButton:hover {
+    transition: 500ms;
+    transform: translateY(-10px) translateX(-10px);
+    box-shadow: 10px 10px 10px rgba(176, 171, 199, 0.867);
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+
+
